@@ -4,6 +4,12 @@ This is a basic package that can be installed for a quick start with Arches.
 
 An explanation of all graphs (both Resource Models and Branches) included in this package follows.
 
+### Load the package
+
+```
+python manage.py packages -o load_package -s https://github.com/reubenosborne1/kint-arches-pkg/archive/master.zip -db 
+```
+
 ## Resource Models
 
 + Activity Resource Model
